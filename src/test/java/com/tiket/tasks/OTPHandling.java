@@ -13,10 +13,10 @@ import com.twilio.rest.api.v2010.account.Message;
 
 public class OTPHandling {
 
-    public static final String ACCOUNT_SID = System.getenv("AC44ef3542ea27856282b793df5022db28"); 
-    public static final String AUTH_TOKEN = System.getenv("1cf917109010a02cc4ccc68d12f69132");
+    public static final String ACCOUNT_SID = System.getenv(""); 
+    public static final String AUTH_TOKEN = System.getenv("");
 
-    public static final String TIKET_PHONE_NUMBER = "+6281219817790";
+    public static final String TIKET_PHONE_NUMBER = "";
 
     public static String getOTPNumber() {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
