@@ -6,17 +6,17 @@ import com.twilio.rest.api.v2010.account.Message;
 
 /*  Twilio Fetch OTP Handling
  *
- *  Author   : Anjar Tiyo
- *  Github   : github.com/AnjarTiyo
+ *  Author   : Rahman Sopian
+ *  Github   : github.com/rahmansopiann
  *
  */
 
 public class OTPHandling {
 
-    public static final String ACCOUNT_SID = System.getenv("TWILIO_ACCOUNT_SID"); 
-    public static final String AUTH_TOKEN = System.getenv("TWILIO_AUTH_TOKEN");
+    public static final String ACCOUNT_SID = System.getenv("AC44ef3542ea27856282b793df5022db28"); 
+    public static final String AUTH_TOKEN = System.getenv("1cf917109010a02cc4ccc68d12f69132");
 
-    public static final String TIKET_PHONE_NUMBER = "+16238888859";
+    public static final String TIKET_PHONE_NUMBER = "+6281219817790";
 
     public static String getOTPNumber() {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
